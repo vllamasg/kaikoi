@@ -1,0 +1,374 @@
+HTML, body, form{
+    height: 100%;
+}
+
+.sidenav{
+    height: 780px;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.topbar{
+    height: 68px;
+    width: 100%;
+    background-color: #15DDE0;
+}
+
+.topmenu{
+    float: right;
+    width: 700px;
+    height: 68px;
+}
+
+.topmenu button{
+    float: right;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #8259FF;
+    border: none;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s ease 0s;
+    margin-top: 13px;
+    margin-right: 55px;
+    font-size: 13px;
+    transition: all .1s linear;
+}
+
+.topmenu button:hover{
+    background-color: #6548c5;
+}
+
+.menuoptions{
+    margin-top: 20px;
+    position: absolute;
+    width: 350px;
+    margin-left: 140px;
+}
+
+.a2{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.a2:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.a2:hover:after{
+    width: 100%;
+    background: white;
+}
+.a3{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.a3:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.a3:hover:after{
+    width: 100%;
+    background: white;
+}
+.a4{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.a4:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.a4:hover:after{
+    width: 100%;
+    background: white;
+}
+.a1{
+    display: inline-block;
+}
+
+.a1:after{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+
+.a1:hover:after{
+    width: 100%;
+    background: white;
+}
+
+.a1{
+    margin-left: -60px;
+
+}
+
+.info a{
+    border-bottom: 3px solid transparent;
+    transition: 0.5s ease;
+    white-space: nowrap;
+}
+
+.info a:hover{
+    border-bottom: 3px solid white;
+    width: 20px;
+}
+
+.info{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.info p{
+    margin-top: 30px;
+    color: #7f7f7f;
+    margin-bottom: 20px;
+}
+
+.info button{
+    background-color: #15DDE0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 170px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.info button:hover{
+    background-color: #3fa0a0;
+}
+
+.topnav{
+    height: 72px;
+    width: 100%;
+    background-color: #7fbacc;
+
+}
+
+.title{
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo-box{
+    height: 80px;
+    width: 220px;
+}
+
+.links{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+.menu-options{
+    position: absolute;
+    margin-left: 280px;
+    margin-top: 22px;
+}
+
+.menu-options a{
+    font-size: 14px;
+    color: white;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    padding-top: 27px;
+    padding-bottom: 29px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.menu-options a:hover{
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+}
+
+.sidenav a{
+    margin-left: 30px;
+    font-size: 16px;
+    margin-top: 14px;
+    color: #606060;
+    display: block;
+    transition: 0.3s;
+}
+
+.user-img{
+  float: right;
+  margin-right: 50px;
+  margin-top: 18px;
+}
+
+.logo-img{
+    float: left;
+    margin-left: 93px;
+    margin-top: 24px;
+}
+
+.square{
+    height: 100%;
+}
+
+.main-logo{
+    position:absolute;
+    top:50%;
+    margin-top -75%;
+}
+
+.lateral-bar{
+    height: 100%;
+    width: 33%;
+    background-color: #15DDE0;
+    text-align: center;
+}
+
+.fish{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+}
+
+.formu{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.second{
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 67%;
+    margin-left: 33%;
+}
+
+.form input{
+    margin-top: 10px;
+    width: 360px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f4f4f4;
+    height: 32px;
+    padding-left: 13px;
+    font-size: 14px;
+}
+
+.inputone{
+    margin-bottom: 7px;
+}
+
+.form label{
+    color: #8c8c8c;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.form button{
+    margin-top: 25px;
+    background-color: #15DDE0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 140px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .1s linear;
+    letter-spacing: 2px;
+}
+
+.form button:hover{
+    background-color: #3fa0a0;
+}
+
+.next-button{
+    margin-top: 25px;
+    background-color: #15DDE0;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 140px;
+    font-size: 14px;
+    height: 40px;
+    cursor: pointer;
+    transition: all .1s linear;
+    letter-spacing: 2px;
+}
+
+.triangulo {
+     transform: translate(-50%, -50%);
+     margin-left: 10px;
+     top: 50%;
+     width: 0;
+     height: 0;
+     border-left: 20px solid #8259FF;
+     border-top: 20px solid transparent;
+     border-bottom: 20px solid transparent;
+     position: absolute;
+}
+
+.button-create{
+    float: right;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: #8259FF;
+    border: none;
+    width: 150px;
+    height: 40px;
+    transition: all 0.5s ease 0s;
+    margin-top: 13px;
+    margin-right: 55px;
+    font-size: 13px;
+    transition: all .1s linear;
+}
+
+.button-create:hover{
+    background-color: #6548c5;
+}
+
+.labels{
+    float: right;
+    height: 70px;
+    width: 80px;
+    margin-top: 15px;
+}
